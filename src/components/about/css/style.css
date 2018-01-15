@@ -1,0 +1,312 @@
+.rule{
+	padding-bottom: 150px;
+	position: relative;
+}
+.rule_left{
+	float: left;
+	width: 250px;
+	padding-bottom: 45px;
+	padding-top: 100px;
+	background: url(../img/rule_left.png) no-repeat left 100px;
+	background-size: 250px;
+	background-color: #000;
+	z-index: 10;
+}
+.rule_right{
+	float: right;
+	width: 890px;
+	min-height: 650px;
+	overflow: hidden;
+}
+.rule_subItem> li{
+	display: none;
+}
+.rule_left ul{
+	padding-top: 100px;
+}
+.rule_left li{
+	cursor: pointer;
+	line-height: 35px;
+	padding: 10px 0 10px 75px;
+	font-size: 18px;
+	color: #d0a15f;
+}
+.rule_left li a{
+	color: #d0a15f;
+}
+.rule_left li a.active{
+	color: #d28e14;
+}
+
+.rule_left li:hover{
+	color: #d28e14;
+}
+.rule_about h2,
+.rule_notice h2,
+.rule_duty h2,
+.rule_problem h2,
+.rule_safety h2,
+.rule_contact h2,
+.rule_agreement h2{
+	font-size: 30px;
+	color: #ffcf8a;
+	line-height: 120px;
+	text-align: center;
+	background: url(../img/about_h2.png) no-repeat center 65px ;
+}
+.rule_about p,
+.rule_about h2,
+.rule_about h3,
+.rule_notice h2,
+.rule_notice h3,
+.rule_notice p,
+.rule_contact p,
+.rule_duty p,
+.rule_duty h2,
+.rule_duty h3,
+.rule_problem h2,
+.rule_problem h3,
+.rule_problem p,
+.rule_safety h2
+,.rule_safety h3,
+.rule_safety p,
+.rule_contact h2,
+.rule_agreement h2,
+.rule_agreement h3,
+.rule_agreement p{
+	color: #ffcf8a;
+}
+.rule_about h3,
+.rule_notice h3,
+.rule_duty h3,
+.rule_duty h3,
+.rule_problem h3,
+.rule_safety h3,
+.rule_agreement h3{
+	line-height: 60px;
+	font-size: 18px;
+}
+.rule_about p,
+.rule_notice p,
+.rule_duty p,
+.rule_problem p,
+.rule_safety p,
+.rule_contact p,
+.rule_contact p,
+.rule_agreement p{
+	font-size: 14px;
+	line-height: 30px;
+}
+.rule_subItem h4{
+	display: inline-block;
+	position: relative;
+	color: #000;
+	font-size: 18px;
+	background-color: #ffcf8a;
+	line-height: 30px;
+	padding: 0 10px;
+	font-weight: bold;
+	margin: 20px 0;
+}
+.rule_duty h4 span{
+	position: absolute;
+	width: 600px;
+	color: #ff9600;
+	font-size: 14px;
+	left: 100px;
+	font-weight: normal;
+}
+.rule_notice dl{
+	padding-bottom: 10px;
+	border-bottom: 1px dashed #ffcf8a;
+}
+.rule_notice dt{
+	line-height: 30px;
+	font-size: 14px;
+	color: #ff9600;
+}
+.rule_notice dt h4{
+	margin-right: 30px;
+	margin-bottom: 5px;
+}
+.rule_notice dd{
+	line-height: 40px;
+	color: #ffcf8a;
+	font-size: 14px;
+}
+.rule_right ol{
+	padding-left: 30px;
+}
+.rule_right ol li{
+	line-height: 35px;
+	font-size: 14px;
+	color: #ffcf8a;
+}
+.rule_subItem .ff96{
+	color: #FF9600;
+}
+.duty_num li{
+	list-style-type: decimal;
+}
+.duty_dian li{
+	list-style-type: square;
+}
+.duty_dashed{
+	height: 1px;
+	margin: 10px 0;
+	border-bottom: 1px dashed #ffcf8a;
+}
+.rule_h25 {
+	height: 25px;
+}
+.rule_contact .contact_list{
+	margin-right: -60px;
+}
+.rule_contact .contact_list li{
+	float: left;
+	padding-left: 100px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-right: 60px;
+	background-position:left  top;
+	background-repeat: no-repeat;
+}
+.rule_contact .contact_list li p{
+	line-height: 25px;
+	color: #ffcf8a;
+}
+.rule_contact .contact_list .contact_live{
+	background-image: url(../img/live800.png);
+	
+}
+.rule_contact .contact_list .contact_weiChat{
+	background-image: url(../img/wechat_1.png);
+}
+.rule_contact .contact_list .contact_Sino{
+	background-image: url(../img/wechat_2.png);
+}
+.rule_contact .contact_list .contact_Qq{
+	background-image: url(../img/qqicon.png);
+}
+.contactList .kf{
+	height: 333px;
+	position: relative;
+	background-color: #081027;
+	background-image: url(../img/contact1.jpg);
+	background-position: left top;
+	background-repeat: no-repeat; 
+}
+.contactList>div{
+	border: 1px solid transparent;
+}
+
+.kf1_con{
+	width: 280px;
+	position: absolute;
+	right: 15px;
+	top: 0;
+}
+.kf1_con h5{
+	color: #ffcf8a;
+	font-size: 16px;
+	text-align: center;
+	padding-top: 120px;
+	background: url(../img/contact2.png) center 40px  no-repeat;
+}
+.kf1_con a{
+	color: #fff;
+	font-size: 16px;
+	display: block;
+	line-height: 30px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.kf2,.kf3,.kf4,.kf5{
+	position: relative;
+	width: 442px;
+	height: 210px;
+	background-color: #081027;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.kf2{
+	background-image: url(../img/contact3.jpg);
+}
+.kf3{
+	background-image: url(../img/contact4.jpg);
+}
+.kf4{
+	background-image: url(../img/contact5.jpg);
+}
+.kf5{
+	background-image: url(../img/contact6.jpg);
+}
+.kf_wechat{
+	padding-top: 80px;
+	background:url(../img/contact7.png) no-repeat center 15px ;
+}
+.kf_qq{
+	padding-top: 90px;
+	background: url(../img/contact8.png) no-repeat center 15px;
+}
+.kf_email{
+	padding-top: 90px;
+	background:url(../img/contact9.png) no-repeat center 15px;
+}
+.kf_right a{
+	display: block;
+	color: #ffcf8a;
+	font-size: 12px;
+	text-align: center;
+	padding: 30px 0;
+}
+.kf_right{
+	position: absolute;
+	width: 125px;
+	right: 10px;
+	top: 0;
+}
+.kf_right p{
+	text-align: center;
+}
+.kf6{
+	height: 315px;
+	background: url(../img/contact10.jpg) no-repeat left top;
+}
+.kf_list{
+	width: 400px;
+	height: 280px;
+	margin: 0 auto;
+	padding-top: 17px;
+}
+.kf_list li{
+	width: 200px;
+	height: 140px;
+	float: left;
+	position: relative;
+	background-position: center 15px;
+	background-repeat: no-repeat;
+}
+.kf_list li p{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+}
+.kf_list li i{
+	position: absolute;
+	top: 30px;
+	left: 67px;
+}
+.kf_list li.kf_phone i{
+	left: 55px;
+}
+
+.kf_list li.kf_phone,.kf_list li.kf_q{
+	background: url(../img/contact11.png);
+}
+.kf_list li.kf_em,.kf_list li.kf_sion{
+	background: url(../img/contact12.png);
+}

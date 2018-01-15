@@ -1,0 +1,130 @@
+.forgot_hint {
+    clear: both;
+    float: left;
+    margin-left: 485px;
+    line-height: 30px;
+    color: #cf0000;
+    display: none;
+}
+
+.forgot_hint.on {
+    display: block;
+}
+
+.forgot_hint.on+.h25 {
+    height: 0px;
+}
+
+.noRead,
+.read,
+.googleSucc,
+.trueNameTip {
+    display: none;
+}
+
+.trueNameTip.perHint {
+    margin-left: 0;
+}
+
+.openChageName {
+    display: none;
+}
+
+.u_perInput a[disabled="disabled"] {
+    background: #ccc;
+    color: #333;
+}
+
+.setInform {
+    margin-left: 50px;
+    height: 35px;
+}
+
+.setInform .form_time {
+    margin-top: 5px;
+}
+
+.setInform .form_time input {
+    width: 100px;
+}
+
+.setInform span.form_tx {
+    float: left;
+    line-height: 30px;
+    margin: 5px 10px 0;
+    color: #fff;
+}
+
+.pay_subItem>li {
+    display: none;
+}
+
+.pay_subItem>li.on {
+    display: block;
+}
+
+.inven_subNav>li {
+    display: none;
+}
+
+.inven_subNav>li.on {
+    display: block;
+}
+
+.bankNameTip {
+    color: red;
+    float: left;
+    line-height: 32px;
+    margin-left: 5px;
+}
+
+.bankNameTip.on {
+    color: #fff;
+}
+
+.u_saBar .bar {
+    background-color: #ffd08c;
+}
+
+.forgot_phone {
+    display: none;
+}
+
+.forgotPwd,
+.for_usernameTip {
+    display: none;
+}
+
+.forgotPwd .state,
+.forgotPwd .fast.on {
+    display: none;
+}
+.ant-form-item-label label{
+    font-size: 14px;
+    color: #fff;
+}
+input[type="text"], input[type="password"], select{
+    height: auto;
+}
+.ant-select-auto-complete.ant-select-lg .ant-select-selection__rendered{
+    line-height: 28px;
+}
+.ant-form-item-control p{
+    font-size: 12px;
+    color: #d2a972;
+    line-height: 1.5;
+    margin-left: 10px;
+    width: 300px;
+    position: absolute;
+    right: -310px;
+    top: -10px;
+}
+.agreement{
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    height: 150px;
+    overflow-y: auto;
+    border: 1px solid #d2a972;
+}

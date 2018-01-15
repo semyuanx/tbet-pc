@@ -1,0 +1,107 @@
+.nav{
+	height: 850px;
+	position: relative;
+	height: 1px;
+}
+.nav_item{
+	width: 125px;
+	position: absolute;
+	padding-top: 3px;
+	z-index: 999;
+}
+.nav_item>li{
+	display: block;
+    height: 60px;
+    font-size: 18px;
+    line-height: 60px;
+    text-indent: 10px;
+    position: relative;
+    width: 125px;
+    cursor: pointer;
+    text-shadow: 0px 2px 6px #000;
+}
+.nav_item .nav_lastItem{
+	height: 48px;
+}
+.nav_item li.nav_lastItem span{
+	height: 48px;
+}
+.nav_item>li span{
+	position: absolute;
+	right: -16px;
+	top: 0;
+	width: 33px;
+	height: 60px;
+	z-index: 10;
+	background-image:url(../img/nav_item.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.nav_item>li>a{
+	display: block;
+	color: #ffd08c;
+	width: 100%;
+}
+.nav_item>li>a.active span{
+	background-image: url(../img/nav_itemChose.png);
+}
+.nav_item>li>a.active{
+	color:#d28e14;
+}
+.nav_item>li:hover >a{
+	color:#d28e14;
+}
+.nav_item>li:hover span{
+	background-image: url(../img/nav_itemChose.png);
+}
+.nav_item>li:hover .nav_subItem{
+	display: block;
+}
+.nav_line{
+	position: absolute;
+	right: -13px;
+    top: -13px;
+	width: 27px;
+	height: 27px;
+	background:url(../img/nav_topIcon.png) no-repeat left top;
+}
+.nav_subItem{
+	position: absolute;
+	display: none;
+	right: -160px;
+	top: 20px;
+	padding-left: 40px;
+	background: url(../img/nav_subTrow.png) no-repeat 19px 6px;
+}
+.nav_subItem li{
+	width: 140px;
+	height: 26px;
+	line-height: 25px;
+	color: #d28e14;
+	text-align: center;
+	padding-bottom: 3px;
+	background-image: url(../img/nav_subBdg.png);
+	background-position: right top;
+	background-repeat: no-repeat;
+	letter-spacing: 1px;
+}
+.nav_subItem li a{
+	color: #d28e14;
+	display: block;
+	font-size: 14px;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.nav_subItem li:hover{
+	background-image: url(../img/nav_subHover.png);
+}
+.nav_subItem .new{
+	position: absolute;
+	width: 18px;
+	height: 13px;
+	display: block;
+	background: url(../img/nav_tip.png) no-repeat right top;
+	top: 2px;
+	right: 7px;
+}

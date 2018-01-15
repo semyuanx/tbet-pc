@@ -1,0 +1,19 @@
+.xiaojin{
+	padding-bottom: 100px;
+}
+.xiaojin_left{
+	float: left;
+	width: 868px;
+}
+.xiaojin_right img,.xiaojin_left img{
+	width: 100%;
+	height: 432px;
+	opacity: 1;
+}
+.xiaojin_right img:hover,.xiaojin_left img:hover{
+	opacity: 0.8;
+}
+.xiaojin_right{
+	float: right;
+	width: 280px;
+}

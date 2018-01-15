@@ -1,0 +1,1825 @@
+.user {
+    padding-top: 10px;
+}
+
+.i_noticeRight a {
+    color: #ffd69b;
+    font-size: 16px;
+}
+
+.user_left {
+    float: left;
+    width: 220px;
+}
+
+.user_con {
+    position: relative;
+}
+
+.user_con i {
+    width: 22px;
+    height: 24px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(../img/user_icon.png) no-repeat -331px 0;
+}
+
+.user_name {
+    height: 137px;
+    margin-bottom: 25px;
+    background-repeat: no-repeat;
+}
+
+.user_name a {
+    display: block;
+    position: relative;
+    height: 137px;
+    width: 132px;
+    margin: 0 auto;
+}
+
+.userL_icon {
+    margin-left: 6px;
+}
+
+.userL_icon li {
+    float: left;
+    margin-left: 20px;
+}
+
+.userL_icon li a {
+    display: block;
+    color: #ffd08c;
+    padding: 35px 5px 0;
+    font-size: 14px;
+    position: relative;
+}
+
+.userL_icon a i {
+    position: absolute;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/user_icon.png);
+    background-repeat: no-repeat;
+}
+
+.userL_icon li.mail i {
+    left: 12px;
+    background-position: 0 0;
+}
+
+.userL_icon li.down i {
+    left: 5px;
+    background-position: -30px 0;
+}
+
+.userL_icon li.esc i {
+    background-position: -60px 0;
+}
+
+.user_left h2 {
+    font-size: 21px;
+    color: #ffd08c;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.user_name {
+    position: relative;
+}
+
+.user_name p {
+    position: absolute;
+    bottom: 0;
+    width: 132px;
+    color: #4b371a;
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.user_item {
+    padding-top: 20px;
+}
+
+.user_item>li p {
+    line-height: 1.5;
+    color: #ffd08c;
+    font-size: 15px;
+    border: 1px solid #ffd08c;
+    margin: 15px 55px;
+    padding-left: 20px;
+    cursor: pointer;
+    position: relative;
+}
+
+.user_item>li .trian {
+    position: absolute;
+    z-index: 10;
+    top: 9px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-top: 5px solid #ffd08c;
+    border-right: 5px solid transparent;
+}
+
+.user_item a {
+    color: #ffd08c;
+    display: block;
+}
+
+.user_item a:hover {
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
+
+
+
+.user_item>li a.active  p {
+    background: #ffd08c;
+    color: #000;
+}
+
+.user_item>li a.active .trian {
+    border-top: 5px solid #000;
+}
+
+.user_gameItem {
+    margin-top: -10px;
+    margin-bottom: -5px;
+}
+
+.user_gameItem.on {
+    display: block;
+}
+
+.user_gameItem li {
+    margin: 4px 55px;
+    background-repeat: no-repeat;
+    background-position: -457px -377px;
+    background-image: url(../img/user_icon.png);
+    text-align: center;
+}
+
+.user_gameItem li:hover {
+    background-image: url(../img/user_icon.png);
+    background-position: -363px 0;
+}
+
+.user_gameItem li.far_game {
+    border: none;
+    padding-top: 4px;
+    background-position: -342px -373px;
+}
+
+.user_gameItem li.far_game:hover {
+    background-image: url(../img/user_icon.png);
+    background-position: -480px 0;
+}
+
+.user_gameItem a {
+    line-height: 22px;
+    color: #ffa74c;
+    display: block;
+}
+
+.user_right {
+    float: right;
+    width: 915px;
+}
+
+.user_info {
+    line-height: 24px;
+    font-size: 15px;
+    color: #929292;
+    position: relative;
+    padding-left: 30px;
+}
+
+.user_pay {
+    padding: 15px 0;
+    border-bottom: 1px solid #ffd08c;
+}
+
+.user_subItem {
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.user_subItem>li {
+    overflow: hidden;
+}
+
+.user_subItem>li {
+    display: none;
+}
+
+.user_subItem>li.on {
+    display: block;
+}
+
+.user_module {
+    padding-bottom: 2px;
+    border-bottom: 1px solid #fff;
+}
+
+.user_remain {
+    width: 450px;
+    height: 80px;
+    margin-left: 40px;
+    margin-top: 50px;
+    float: left;
+    position: relative;
+}
+
+.user_remain i {
+    position: absolute;
+    width: 120px;
+    height: 55px;
+    background: url(../img/user_icon.png) no-repeat 0 -313px;
+    margin-top: 5px;
+}
+
+.user_remain ul {
+    padding-left: 130px;
+}
+
+.user_remain li {
+    float: left;
+    margin-right: 15px;
+}
+
+.user_remain li p {
+    font-size: 18px;
+    color: #ffd08c;
+    line-height: 25px;
+    margin-bottom: 5px;
+}
+
+.user_remain .user_getBtn a {
+    font-family: "黑体";
+    display: block;
+    line-height: 20px;
+    font-size: 18px;
+    padding: 5px 0;
+    width: 75px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    float: left;
+}
+
+.user_remain li.user_remain_cash {
+    margin-top: 5px;
+    width: 105px;
+}
+
+.user_remain li a.pay {
+    background: #ffd08c;
+    color: #7d622c;
+}
+
+.user_remain li a.embody {
+    background: #7d622c;
+    color: #ffd08c;
+}
+
+.user_sign {
+    float: left;
+}
+
+.user_sign ul {}
+
+.user_sign li {
+    float: left;
+    padding: 0 35px;
+}
+
+.singn_con {
+    height: 130px;
+}
+
+.task_con {
+    height: 130px;
+    background: url(../img/sign2.png) no-repeat left top;
+}
+
+.singn_btn {
+    width: 153px;
+    position: relative;
+    height: 38px;
+    display: block;
+    padding-top: 90px;
+}
+
+.singn_btn span {
+    display: block;
+    width: 100%;
+    height: 38px;
+    background: url(../img/user_icon.png) no-repeat -281px -311px;
+}
+
+.singn_btn i {
+    width: 147px;
+    height: 75px;
+    position: absolute;
+    top: 0;
+    background: url(../img/user_icon.png) no-repeat -131px -311px;
+}
+
+.singn_bor {
+    border-right: 1px dashed #473a27;
+}
+
+.u_safety {
+    padding-bottom: 30px;
+}
+
+.u_safetyBar,
+.u_perfect,
+.bankCardList,
+.user_set {
+    padding: 0 20px;
+}
+
+.u_safetyBar h3 {
+    color: #ffd08c;
+    font-size: 21px;
+    line-height: 35px;
+    float: left;
+}
+
+.addBankDom {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.u_saBar {
+    float: left;
+    width: 400px;
+    height: 20px;
+    margin: 9px 0 0;
+    margin-left: 10px;
+    border: 1px solid #ffd08c;
+    position: relative;
+    background: #000;
+    overflow: visible;
+}
+
+.u_saBarTx {
+    font-size: 16px;
+    color: #ffd08c;
+    float: left;
+    margin-left: 80px;
+    line-height: 35px;
+}
+
+.u_saBar span {
+    position: absolute;
+    right: -45px;
+    top: -7px;
+    line-height: 35px;
+    color: #ffd08c;
+    font-size: 15px;
+}
+
+.u_saBar i {
+    position: absolute;
+    height: 20px;
+    background: #ffd08c;
+}
+
+.u_saDesc {
+    padding: 10px 15px;
+    border: 1px dashed #ffd08c;
+}
+
+.u_saDesc p {
+    font-size: 14px;
+    color: #ffd08c;
+    line-height: 35px;
+    position: relative;
+}
+
+.u_saDesc p span {
+    width: 19px;
+    height: 16px;
+    position: absolute;
+    right: 100px;
+    top: 9px;
+    background-position: -111px 0;
+    background-repeat: no-repeat;
+    background-image: url(../img/user_icon.png);
+}
+
+.u_saDesc p.on span {
+    background-position: -94px 0;
+}
+
+.user_line {
+    height: 1px;
+    background: url(../img/user_icon.png) no-repeat 0px -578px;
+    background-size: 915px;
+}
+
+.u_perfect,
+.u_bankCard,
+.bankCardList,
+.user_set {
+    margin: 30px 0;
+}
+
+.u_index_title {
+    font-size: 21px;
+    color: #ffd08c;
+    position: relative;
+    line-height: 50px;
+}
+
+.u_index_title span {
+    font-size: 14px;
+    color: #ff0000;
+}
+
+.u_index_title a {
+    position: absolute;
+    right: 120px;
+    bottom: 15px;
+    width: 107px;
+    height: 48px;
+    background: url(../img/user_icon.png) no-repeat -453px -314px;
+}
+
+.user_input label {
+    color: #ffd08c;
+    font-size: 14px;
+    float: left;
+    line-height: 32px;
+}
+.user_input span{
+    font-size: 14px;
+    line-height: 32px;
+    color: #fff;
+}
+
+.perInput label {
+    width: 80px;
+}
+
+.perInput input {
+    float: left;
+    width: 230px;
+    border: 1px solid #ffd08c;
+    border-radius: 0;
+    background: none;
+    color: #fff;
+}
+
+.perInput a {
+    float: left;
+    width: 71px;
+    line-height: 30px;
+    color: #000;
+    font-size: 14px;
+    background: #ffd08c;
+    text-align: center;
+}
+
+.perInput button.getCodeBtn {
+    float: left;
+    width: 124px;
+    line-height: 30px;
+    color: #000;
+    font-size: 14px;
+    background: #ffd08c;
+    text-align: center;
+    border: 0;
+}
+
+.nameInput label {
+    width: 80px;
+}
+.addBankError{
+    font-size: 14px;
+    color: #ff0000;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.nameInput .user_drawInfo {
+    float: left;
+    line-height: 32px;
+    font-size: 16px;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.user_input.nameInput input.nameInputTx {
+    width: 775px;
+    background: none;
+    border-width: 0 0 1px 0;
+    border-color: #ffd08c;
+    border-style: solid;
+    border-radius: 0;
+    color: #ffd08c;
+    margin-top: 3px;
+}
+
+.drawings .user_input.nameInput input.nameInputTx {
+    width: 325px;
+}
+
+.user_input input {
+    float: left;
+}
+
+.form-control.bankName {
+    float: left;
+    width: 375px;
+    height: 30px;
+    padding: 4px 15px;
+}
+
+.user_input input.bankNameInput {
+    float: left;
+    width: 375px;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+.user_input input.accountInput {
+    float: left;
+    width: 360px;
+    margin-top: 3px;
+}
+
+.addBankBtn {
+    width: 71px;
+    height: 26px;
+    display: block;
+    margin: 0 auto;
+    background: url(../img/addBankBtn.png) no-repeat left top;
+    color: #fff;
+    font-size: 18px;
+    line-height: 25px;
+    text-indent: 25px;
+}
+
+.bankCardList table {
+    width: 100%;
+    text-align: center;
+}
+
+.bankCardList table td {
+    text-align: center;
+    background: #fff;
+    color: #333;
+    font-size: 14px;
+    line-height: 25px;
+    border: 1px solid #000;
+}
+
+.bankCardList table tr {
+    margin-bottom: 5px;
+}
+
+.bankCardList table .thend th {
+    background: #FFD08C;
+    line-height: 30px;
+    font-size: 16px;
+    text-align: center;
+    color: #000;
+    border: 0;
+}
+
+.user_set h3 {
+    font-size: 21px;
+    text-align: center;
+    color: #ffd08c;
+    background: url(../img/inform.png) no-repeat 330px top;
+    margin-bottom: 30px;
+}
+
+.u_set_grd .set_chek1 {
+    display: none;
+}
+
+.u_set_grd label {
+    float: left;
+    color: #ffd08c;
+    font-size: 21px;
+    line-height: 35px;
+    height: 35px;
+}
+
+.likeCheck,
+.likeRadio {
+    line-height: 25px;
+    padding-top: 5px;
+    color: #fff;
+    font-size: 16px;
+    padding-left: 25px;
+    cursor: pointer;
+}
+
+.likeCheck {
+    background-image: url(../img/check_false.png);
+    background-position: left 4px;
+    background-repeat: no-repeat;
+}
+
+.radioDom input {
+    display: none;
+}
+
+.radioDom,
+.checkDom {
+    width: auto;
+    position: relative;
+}
+
+.checkDom input {
+    display: none;
+}
+
+.likeRadio {
+    background-image: url(../img/radio_false.png);
+    background-position: left 8px;
+    background-repeat: no-repeat;
+}
+
+.set_way {
+    float: left;
+}
+
+.likeCheck.on {
+    background-image: url(../img/check_true.png);
+}
+
+.likeRadio.on {
+    background-image: url(../img/radio_true.png);
+}
+
+.user_set .setbtn,
+.rechaBtn,
+.addBankDom .setbtn,
+.u_bankCard .setbtn {
+    display: block;
+    width: 71px;
+    height: 26px;
+    cursor: pointer;
+    line-height: 25px;
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    background: url(../img/user_icon.png) no-repeat -136px 0;
+}
+
+.binBankBtnlist {
+    text-align: center;
+}
+
+.binBankBtnlist a {
+    display: inline-block;
+    width: 71px;
+    height: 26px;
+    cursor: pointer;
+    line-height: 25px;
+    color: #fff;
+    text-align: center;
+    background: url(../img/setbtn.png) no-repeat left bottom;
+}
+
+.perHint {
+    color: #d60000;
+    display: block;
+    margin-left: 80px;
+    line-height: 25px;
+    clear: both;
+}
+
+.perHint.chageTip {
+    margin-left: 0;
+    color: #ffd08c;
+}
+
+.openVerifyDom .perHint {
+    display: none;
+}
+
+.openVerifyDom .perHint.on~.h15 {
+    height: 0;
+}
+
+.openVerifyDom .perHint.on {
+    display: block;
+}
+
+.perInput .newInput input {
+    width: 145px;
+    float: left;
+    margin-right: 10px;
+}
+
+.user_verify select {
+    border: 1px solid #ffd08c;
+    background: none;
+    border-radius: 0;
+    float: left;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    padding: 3px 12px;
+    color: #fff;
+}
+
+.user_verify option {
+    color: #000;
+}
+
+.newInput {
+    margin-left: 80px;
+}
+
+.user_verify a {
+    width: auto;
+    padding: 0 2px;
+}
+
+.user_verify input {
+    width: 85px;
+    float: left;
+    margin-left: 6px;
+}
+
+.changePwdBtn {
+    text-align: center;
+    padding-left: 80px;
+}
+
+.user_verify a.getChageCode {
+    width: 88px;
+}
+
+.changePwdBtn a {
+    display: inline-block;
+    height: 30px;
+    text-align: center;
+    margin-left: 5px;
+    line-height: 28px;
+    color: #000;
+    font-size: 14px;
+}
+
+.perInput .changePwdBtn .confirm {
+    width: 79px;
+    background: url(../img/subBtn.png) no-repeat left top;
+    float: none;
+}
+
+.perInput .changePwdBtn .close {
+    width: 79px;
+    background: url(../img/closeBtn.png) no-repeat left top;
+    float: none;
+    opacity: 1;
+    text-shadow: none;
+    color: #333;
+}
+
+.user_input span.openBinBtn {
+    float: left;
+    width: 315px;
+    height: 32px;
+    line-height: 32px;
+    background: #ffd08c;
+    text-align: center;
+    color: #000;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.u_perInput {
+    width: 406px;
+}
+
+.u_binEmail.u_perInput input,
+.bin_phone.u_perInput input {
+    width: 192px;
+}
+
+.u_binEmail .perInput a,
+.bin_phone .perInput a {
+    width: 124px;
+}
+.bin_phone .perInput a.closeCode{
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+.u_binEmail .perInput a.closeCode{
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+.bin_over {
+    color: #fff;
+    font-size: 14px;
+    width: 315px;
+    float: left;
+    line-height: 32px;
+    position: relative;
+}
+
+.bin_over p {
+    color: #fff;
+}
+
+.bin_over .cheTrueNamebtn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    line-height: 32px;
+    background: url(../img/changeTrueBtn.png) no-repeat left 5px;
+    background-size: 20px;
+}
+
+.bin_over .cheTrueNamebtn span {
+    display: none;
+}
+
+.bin_over .cheTrueNamebtn:hover {
+    background: none;
+}
+
+.bin_over .cheTrueNamebtn:hover span {
+    display: block;
+}
+
+.bin_over p.emailDom {
+    float: left;
+    color: #fff;
+    line-height: 32px;
+}
+
+.bin_over span {
+    color: #ff6e40;
+    float: right;
+}
+
+.u_binEmail {
+    float: left;
+}
+
+.bin_phone {
+    float: right;
+}
+
+.drawings {
+    min-height: 485px;
+}
+
+.draw_info {
+    border: 1px dashed #ffd08c;
+    border-radius: 5px;
+    padding: 25px 235px;
+    margin: 30px 0 60px;
+}
+
+.draw_info .form-control {
+    float: left;
+    width: 335px;
+    margin-top: 3px;
+}
+
+.draw_info select.form-control {
+    width: 350px;
+    margin-top: 3px;
+}
+
+.draw_warning {
+    padding: 25px 0;
+    text-align: center;
+}
+
+.draw_warning span {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 5px 10px;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.draw_warning p {
+    font-size: 16px;
+    color: red;
+}
+
+.draSubBtn {
+    display: block;
+    color: #fff;
+    font-size: 16px;
+    margin: 0 auto;
+    width: 71px;
+    height: 26px;
+    line-height: 25px;
+    text-align: center;
+    background: url(../img/setbtn.png) no-repeat left top;
+}
+
+.nameInput {
+    position: relative;
+}
+
+.draw_tip {
+    position: absolute;
+    right: -130px;
+    line-height: 35px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.draw_tip sup {
+    color: #cb0000;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.pay_top {
+    margin-bottom: 20px;
+}
+
+.pay_top h2 {
+    font-size: 18px;
+    color: #ffd08c;
+    float: left;
+    width: 120px;
+}
+
+.pay_top .pay_nav {
+    float: left;
+    height: 40px;
+}
+
+.pay_nav li {
+    float: left;
+    line-height: 40px;
+    position: relative;
+    color: #ffd08c;
+    font-size: 18px;
+    margin-right: 70px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+}
+
+.pay_nav span.trian {
+    position: absolute;
+    right: -30px;
+    top: 20px;
+    width: 0;
+    padding: 0;
+    border-top: 5px solid #ffd08c;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+}
+
+.pay_nav li.addIcon,
+.pay_nav li.tenpay {
+    margin-left: 28px;
+}
+
+.pay_nav li.addIcon i {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 8px;
+    left: -38px;
+    background-image: url(../img/user_icon.png);
+    background-repeat: no-repeat;
+}
+
+.pay_nav li:hover {
+    border-color: #ffd08c;
+}
+
+.pay_nav li.on {
+    border-color: #ffd08c;
+}
+
+.weichat_pay i {
+    background-position: -263px 0;
+}
+
+.ali_pay i {
+    background-position: -293px 0;
+}
+
+.tenpay i {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 5px;
+    left: -38px;
+    background: url(../img/tenpay.png) no-repeat left top;
+}
+
+.payWay_left {
+    float: left;
+    width: 120px;
+    color: #ffd08c;
+    font-size: 16px;
+    line-height: 38px;
+}
+
+.payWay_right {
+    float: left;
+}
+
+.payWay_right .likeRadio {
+    font-size: 16px;
+    line-height: 30px;
+    background-position: left 10px;
+}
+
+.payWay_right p.money {
+    line-height: 35px;
+    margin-left: 10px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.payWay_right .bank_list {
+    width: 790px;
+    line-height: 38px;
+    color: #fff;
+}
+
+.payWay_right .bank_list li {
+    float: left;
+    margin-right: 20px;
+    padding: 2px 10px;
+    color: #fff;
+    position: relative;
+    border: 1px solid #ffd08c;
+    cursor: pointer;
+}
+
+.payWay_right .user_input input.accountInput {
+    width: 150px;
+}
+
+.payWay_right .bank_list label {
+    padding-left: 30px;
+    line-height: 35px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.payWay_right .bank_list input[type="radio"] {
+    margin: 0;
+}
+
+.payWay_right .bank_list label span {
+    width: 27px;
+    height: 27px;
+    position: absolute;
+    left: 0;
+    top: 4px;
+    background-image: url(../img/bank-icon.png);
+    background-repeat: no-repeat;
+}
+
+.payWay_right .bank_list label .icbc {
+    background-position: -108px 0;
+}
+
+.payWay_right .bank_list label .bcm {
+    background-position: -298px 0;
+}
+
+.payWay_right .bank_list label .abc {
+    background-position: -378px 0;
+}
+
+.payWay_right .bank_list label .ccb {
+    background-position: -270px 0;
+}
+
+.payWay_right .bank_list label .boc {
+    background-position: -594px 0;
+}
+
+.payWay_right .bank_list label .boco {
+    background-position: -297px 0;
+}
+
+.payWay_right .bank_list label .cmb {
+    background-position: -540px 0;
+}
+
+.payWay_right .bank_list label .cmbc {
+    background-position: -324px 0;
+}
+
+.payWay_right .bank_list label .spdb {
+    background-position: -405px 0;
+}
+
+.payWay_right .bank_list label .cib {
+    background-position: -486px 0;
+}
+
+.payWay_right .bank_list label .huaxia {
+    background-position: -243px 0;
+}
+
+.payWay_right .bank_list label .citic {
+    background-position: -243px 0;
+}
+
+.payWay_right .bank_list label .ceb {
+    background-position: -135px 0;
+}
+
+.payWay_right .bank_list label .gdb {
+    background-position: -162px 0;
+}
+
+.payWay_right .bank_list label .bccb {
+    background-position: 0 0;
+}
+
+.payWay_right .bank_list label .njcb {
+    background-position: -675px 0;
+}
+
+.payWay_right .bank_list label .cbhb {
+    background-position: -80px 0;
+}
+
+.payWay_right .bank_list label .hkbea {
+    background-position: -648px 0;
+}
+
+.payWay_right .bank_list label .nbcb {
+    background-position: -351px 0;
+}
+
+.payWay_right .bank_list label .cttic {
+    background-position: -621px 0;
+}
+
+.payWay_right .bank_list label .pinganbank {
+    background-position: -459px 0;
+}
+
+.payWay_right .bank_list label .shb {
+    background-position: -432px 0;
+}
+
+.payWay_right .bank_list label .bos {
+    background-position: -432px 0;
+}
+
+.payWay_right .bank_list label .szrcb {
+    background-position: -28px -25px;
+}
+
+.payWay_right .bank_list label .psbs,
+.payWay_right .bank_list label .psbc {
+    background-position: -513px 0;
+}
+
+.payWay_right .bank_list label .others {
+    background-position: 50px 50px;
+}
+
+.payWay_right .bank_list label .cncb {
+    background-position: -621px 0;
+}
+
+.payWay_right .bank_list label .hxb {
+    background-position: -243px 0;
+}
+
+.payWay_right .bank_list label .bjrcb {
+    background-position: -27px 0;
+}
+
+.payWay_right .bank_list label .srcb {
+    background-position: 0 -25px;
+}
+
+.payWay_right .bank_list label .sdb {
+    background-position: -27px -25px;
+}
+
+.payWay_right .bank_list label .czb {
+    background-position: -26px -52px;
+}
+
+.payWay_right .bank_list li {
+    margin-bottom: 25px;
+}
+
+.payWay_right ._noChckPay {
+    line-height: 38px;
+    color: #ff0000;
+    font-size: 16px;
+}
+
+.payWay_right .checkDom {
+    margin-right: 30px;
+}
+
+.payWay_right.zf .radioDom {
+    margin-right: 30px;
+}
+
+.app_for .likeCheck span {
+    color: #a10000;
+}
+
+.pay_way .rechaBtn {
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.payWay_info {
+    border-radius: 5px;
+    padding: 0 120px;
+    margin-bottom: 15px;
+}
+
+.payWay_info .user_input.nameInput span {
+    font-size: 14px;
+    color: #fff;
+    line-height: 32px;
+}
+
+.payWay_right .hint {
+    float: left;
+    color: #ffd08c;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 25px;
+    position: relative;
+}
+
+.payWay_right .hint.subRow_2 {
+    line-height: 20px;
+    overflow: hidden;
+    color: #fff;
+}
+
+.payWay_right sup {
+    position: absolute;
+    line-height: 20px;
+    top: 0;
+    left: 10px;
+    margin-right: 5px;
+    color: #b60000;
+}
+
+.payWay_right .input-group .form-control {
+    width: 150px;
+    float: left;
+    padding: 2px 12px;
+    margin-right: 10px;
+}
+
+.payWay_right .input-group-btn {
+    float: left;
+}
+
+.payWay_right .user_input label {
+    width: 105px;
+}
+
+.payWay_left.row_2 {
+    line-height: 20px;
+}
+
+.payWay_left.row_2 span {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.upload {
+    display: block;
+    width: 145px;
+    line-height: 38px;
+    color: #fff;
+    background: #ffd08c;
+    color: #000;
+    font-size: 17px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.payWay_right .verifi_code {
+    float: left;
+    margin-left: 15px;
+    color: #fff;
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.payWay_right .copyBtn {
+    float: left;
+    padding: 2px 8px;
+    line-height: 20px;
+    background: #ffd08c;
+    color: #000;
+    border-radius: 5px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.inven_nav {
+    margin-left: -95px;
+}
+
+.inventory {
+    margin-top: 25px;
+}
+
+.inven_nav li {
+    float: left;
+    color: #ffd08c;
+    font-size: 18px;
+    padding: 3px 8px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin-left: 135px;
+    cursor: pointer;
+}
+
+.inven_nav li:hover {
+    border-color: #ffd08c;
+}
+
+.inven_nav li.on {
+    border-color: #ffd08c;
+}
+
+.hunt_top {
+    height: 55px;
+    background: #585858;
+}
+
+.hunTop_tip {
+    color: #fff;
+    margin-right: 15px;
+    margin-left: 20px;
+}
+
+.hunt_top>label {
+    float: left;
+    line-height: 55px;
+}
+
+.hunt_top .controls {
+    float: left;
+    margin-top: 14px;
+}
+
+.hunt_top .controls input {
+    width: 120px;
+}
+
+.hunt_top .radioList {
+    margin-left: 20px;
+    float: left;
+}
+
+.hunt_top span.transverse {
+    float: left;
+    line-height: 55px;
+    color: #fff;
+    margin: 0 15px;
+}
+
+.hunt_top .radioList input,
+.hunt_top .radioList label {
+    float: left;
+    line-height: 55px;
+    margin-bottom: 0;
+}
+
+.hunt_top .radioList input {
+    margin-top: 22px;
+    margin-left: 5px;
+}
+
+.hunt_top .radioList label {
+    color: #fff;
+    margin-left: 15px;
+}
+
+.hunt_sub {
+    margin-top: 14px;
+    margin-right: 35px;
+    margin-left: 10px;
+}
+
+.hunt_list {
+    margin-top: 10px;
+}
+
+.hunt_list table {
+    border: 1px solid #ffd08c;
+}
+
+.hunt_list table thead td {
+    border: 0;
+    background: #343434;
+    font-size: 18px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.hunt_list table td {
+    border-color: #FFD08C;
+    text-align: center;
+    color: #ffd08c;
+    position: relative;
+    font-size: 14px;
+}
+
+.hunt_top .form-control {
+    width: 110px;
+    height: 30px;
+    margin-top: 14px;
+    padding: 4px 12px;
+}
+
+.adf_top {
+    line-height: 30px;
+    padding: 0 15px;
+}
+
+.adf_top h2 {
+    color: #ffd08c;
+    font-size: 18px;
+    padding-left: 40px;
+    padding-top: 20px;
+    line-height: 30px;
+    position: relative;
+}
+
+.adf_top h2 i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 38px;
+    height: 38px;
+    background-image: url(../img/user_icon.png);
+    background-position: -288px -367px;
+    background-repeat: no-repeat;
+}
+
+.adf_top button {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.adf_top .codeShow {
+    margin-top: 20px;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.adf_top p {
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 14px;
+    color: #ffd08c;
+}
+
+.hunt_top .form-control.adfInput {
+    height: 20px;
+    width: 150px;
+}
+
+.sign {
+    position: relative;
+    padding-top: 35px;
+    margin-bottom: 90px;
+}
+
+.sign_title img {
+    margin: 0 auto;
+}
+
+.sign_top p {
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+}
+
+.sign_top h2 {
+    color: #ffd000;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.sign_top span {
+    display: inline-block;
+    margin-left: 15px;
+    color: #ffe3a8;
+}
+
+.sign_top u {
+    display: inline-block;
+    padding: 0 5px;
+    font-size: 20px;
+}
+
+.sign_main {
+    padding: 15px 0 35px;
+    border: 5px solid #ffd18d;
+    border-radius: 15px;
+    background-color: #5e4f2e;
+}
+
+.sign_main table td {
+    height: 160px;
+    position: relative;
+}
+
+.sign_icon {
+    height: 125px;
+    width: 140px;
+    margin: 0 auto;
+    position: relative;
+    cursor: no-drop;
+    background-repeat: no-repeat;
+    background-image: url(../img/giftimg1.png);
+}
+
+.sign_icon.sign_bgf1,
+.sign_succ.sign_succ_bgf1 {
+    height: 125px;
+    width: 140px;
+    background-position: 0 -5px;
+}
+
+.sign_icon.sign_bgf2,
+.sign_succ.sign_succ_bgf2 {
+    background-position: 0 -705px;
+}
+
+.sign_icon.sign_bgf3,
+.sign_succ.sign_succ_bgf3 {
+    background-position: 0 -1405px;
+}
+
+.sign_icon.sign_bgf4,
+.sign_succ.sign_succ_bgf4 {
+    background-position: 0 -2106px;
+}
+
+.sign_icon.sign_bgf5,
+.sign_succ.sign_succ_bgf5 {
+    height: 150px;
+    width: 160px;
+    background-position: 0 -2812px;
+}
+
+.sign_succ.sign_succ_bgf5,
+.sign_succ.sign_succ_bgf10,
+.sign_succ.sign_succ_bgf15,
+.sign_succ.sign_succ_bgf20,
+.sign_succ.sign_succ_bgf25 {
+    left: 10px;
+    top: 5px;
+}
+
+.sign_icon.sign_bgf6,
+.sign_succ.sign_succ_bgf6 {
+    background-position: 0 -145px;
+}
+
+.sign_icon.sign_bgf7,
+.sign_succ.sign_succ_bgf7 {
+    background-position: 0 -845px;
+}
+
+.sign_icon.sign_bgf8,
+.sign_succ.sign_succ_bgf8 {
+    background-position: 0 -1546px;
+}
+
+.sign_icon.sign_bgf9,
+.sign_succ.sign_succ_bgf9 {
+    background-position: 0 -2246px;
+}
+
+.sign_icon.sign_bgf10,
+.sign_succ.sign_succ_bgf10 {
+    height: 150px;
+    width: 160px;
+    background-position: 0 -2968px;
+}
+
+.sign_icon.sign_bgf11,
+.sign_succ.sign_succ_bgf11 {
+    background-position: 0 -285px;
+}
+
+.sign_icon.sign_bgf12,
+.sign_succ.sign_succ_bgf12 {
+    background-position: 0 -985px;
+}
+
+.sign_icon.sign_bgf13,
+.sign_succ.sign_succ_bgf13 {
+    background-position: 0 -1686px;
+}
+
+.sign_icon.sign_bgf14,
+.sign_succ.sign_succ_bgf14 {
+    background-position: 0 -2386px;
+}
+
+.sign_icon.sign_bgf15,
+.sign_succ.sign_succ_bgf15 {
+    height: 150px;
+    width: 160px;
+    background-position: 0 -3123px;
+}
+
+.sign_icon.sign_bgf16,
+.sign_succ.sign_succ_bgf16 {
+    background-position: 0 -425px;
+}
+
+.sign_icon.sign_bgf17,
+.sign_succ.sign_succ_bgf17 {
+    background-position: 0 -1125px;
+}
+
+.sign_icon.sign_bgf18,
+.sign_succ.sign_succ_bgf18 {
+    background-position: 0 -1826px;
+}
+
+.sign_icon.sign_bgf19,
+.sign_succ.sign_succ_bgf19 {
+    background-position: 0 -2526px;
+}
+
+.sign_icon.sign_bgf20,
+.sign_succ.sign_succ_bgf20 {
+    height: 150px;
+    width: 160px;
+    background-position: 0 -3279px;
+}
+
+.sign_icon.sign_bgf21,
+.sign_succ.sign_succ_bgf21 {
+    background-position: 0 -565px;
+}
+
+.sign_icon.sign_bgf22,
+.sign_succ.sign_succ_bgf22 {
+    background-position: 0 -1265px;
+}
+
+.sign_icon.sign_bgf23,
+.sign_succ.sign_succ_bgf23 {
+    background-position: 0 -1966px;
+}
+
+.sign_icon.sign_bgf24,
+.sign_succ.sign_succ_bgf24 {
+    background-position: 0 -2666px;
+}
+
+.sign_icon.sign_bgf25,
+.sign_succ.sign_succ_bgf25 {
+    height: 150px;
+    width: 160px;
+    background-position: 0 -3435px;
+}
+
+.sign_main .sign_link {
+    display: none;
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    margin-top: -28px;
+    margin-left: 2px;
+    background: url(../img/giftdot.gif) no-repeat left top;
+}
+
+.sign_main .sign_gif .sign_link {
+    margin-top: -18px;
+    margin-left: -19px;
+}
+
+.sign_main .sign_link.on {
+    display: block;
+}
+
+.sign_main .sign_link.on~.sign_icon {
+    cursor: pointer;
+}
+
+.sign_btm {
+    position: relative;
+    margin-top: 10px;
+    border-radius: 15px;
+    padding: 5px 15px;
+    border: 1px dashed #ffd08c;
+}
+
+.sign_btm h2 {
+    color: #fad49d;
+    font-size: 24px;
+    line-height: 60px;
+}
+
+.sign_btm p {
+    font-size: 14px;
+    line-height: 35px;
+    color: #fad49d;
+}
+
+.sign_tip {
+    position: absolute;
+    top: -29px;
+    width: 10px;
+    height: 39px;
+    background: url(../img/sign_tip.png) left top;
+}
+
+.sign_tip.signTip1 {
+    left: 110px;
+}
+
+.sign_tip.signTip2 {
+    right: 110px;
+}
+.plat_limit_btn {
+    padding-top: 5px;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 50px;
+    background: url(../img/plat_limit_btn.png) no-repeat left 5px;
+}
+
+.plat_limit_btn a {
+    font-size: 18px;
+    color: #ffbb59;
+}
+
+.plat_limit_btn a:hover {
+    color: #ffbb59;
+}
+.level{
+   
+}
+.level_0{
+     background-image: url(../img/user_icon.png);
+	background-position: 0 -34px;
+}
+.level_2101{
+     background-image: url(../img/user_icon.png);
+	background-position: -135px -34px;
+}
+.level_2102{
+     background-image: url(../img/user_icon.png);
+	background-position: -271px -34px;
+}
+.level_2103{
+     background-image: url(../img/user_icon.png);
+	background-position: -407px -34px;
+}
+.level_2112{
+     background-image: url(../img/user_icon.png);
+	background-position: 0 -173px;
+}
+.level_2111{
+     background-image: url(../img/user_icon.png);
+	background-position: -135px -173px;
+}
+.level_2113{
+     background-image: url(../img/user_icon.png);
+	background-position: -271px -173px;
+}
+.level_2000{
+     background-image: url(../img/user_icon.png);
+	background-position: -407px -173px;
+}
